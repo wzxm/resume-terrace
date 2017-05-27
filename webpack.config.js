@@ -20,7 +20,7 @@ const plugins = [
 ]
 
 if(!debug) {
-    plugin.push(new webpack.optimize.UglifyJsPlugin())
+    plugins.push(new webpack.optimize.UglifyJsPlugin())
 }
 
 module.exports = {

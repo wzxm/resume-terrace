@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "clean": "sudo rm -rf dist/*",
+    "clean": "rimraf dist/*",
     "dev": "npm run build && webpack-dev-server --debug",
     "build": "npm run clean && webpack",
     "lint": "standard",
